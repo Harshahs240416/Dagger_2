@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">Dagger2</string>
-
     <string name="toast_text">Git Project</string>
+    <string name="sharedpref_String">I am from Shared Preference</string>
 </resources>
