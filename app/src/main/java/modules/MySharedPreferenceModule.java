@@ -1,4 +1,6 @@
-package com.test.dagger2;
+package modules;
+
+import com.test.dagger2.MySharedPreference;
 
 import dagger.Module;
 import dagger.Provides;
@@ -10,7 +12,7 @@ import dagger.Provides;
 public class MySharedPreferenceModule {
 
     @Provides
-    MySharedPreference provideMySharedPreference(){
+    public MySharedPreference provideMySharedPreference(){
         return new MySharedPreference();
     }
 
